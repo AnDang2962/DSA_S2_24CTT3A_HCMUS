@@ -1,58 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TH-DSA\\Week01\\",
+  "WorkspaceRootPath": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA8C265E-42D3-4C88-B434-E4F6700792F1}|P06\\P06.vcxproj|D:\\TH-DSA\\Week01\\P06\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA8C265E-42D3-4C88-B434-E4F6700792F1}|P06\\P06.vcxproj|solutionrelative:P06\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C3F8618-1A4D-4886-B55B-88CAF098471C}|P05\\P05.vcxproj|D:\\TH-DSA\\Week01\\P05\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2C3F8618-1A4D-4886-B55B-88CAF098471C}|P05\\P05.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P05\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C3F8618-1A4D-4886-B55B-88CAF098471C}|P05\\P05.vcxproj|solutionrelative:P05\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A1CB6BC-8A61-4A6D-83BD-0C1EC01DA9F3}|P04\\P04.vcxproj|D:\\TH-DSA\\Week01\\P04\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6A1CB6BC-8A61-4A6D-83BD-0C1EC01DA9F3}|P04\\P04.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P04\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6A1CB6BC-8A61-4A6D-83BD-0C1EC01DA9F3}|P04\\P04.vcxproj|solutionrelative:P04\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66AAB678-B1CF-45B8-9ACC-84138472E1EE}|P02\\P02.vcxproj|D:\\TH-DSA\\Week01\\P02\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{66AAB678-B1CF-45B8-9ACC-84138472E1EE}|P02\\P02.vcxproj|solutionrelative:P02\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F599F3F9-6FD4-4BBF-9C59-858DBE24BECE}|P03\\P03.vcxproj|D:\\TH-DSA\\Week01\\P03\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F599F3F9-6FD4-4BBF-9C59-858DBE24BECE}|P03\\P03.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P03\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F599F3F9-6FD4-4BBF-9C59-858DBE24BECE}|P03\\P03.vcxproj|solutionrelative:P03\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A423AC76-E269-4D92-ACCF-B7689056FE89}|pointer\\pointer.vcxproj|D:\\TH-DSA\\Week01\\pointer\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A423AC76-E269-4D92-ACCF-B7689056FE89}|pointer\\pointer.vcxproj|solutionrelative:pointer\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{66AAB678-B1CF-45B8-9ACC-84138472E1EE}|P02\\P02.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P02\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66AAB678-B1CF-45B8-9ACC-84138472E1EE}|P02\\P02.vcxproj|solutionrelative:P02\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D738895-C569-4D9A-8523-68EB5069085A}|string\\string.vcxproj|D:\\TH-DSA\\Week01\\string\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D738895-C569-4D9A-8523-68EB5069085A}|string\\string.vcxproj|solutionrelative:string\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3097BBB-8A44-4B74-9976-659A04B2C123}|array\\array.vcxproj|D:\\TH-DSA\\Week01\\array\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3097BBB-8A44-4B74-9976-659A04B2C123}|array\\array.vcxproj|solutionrelative:array\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D40124E0-4BE6-4BF1-A63B-C1D2951F88A5}|do_while-loop\\do_while-loop.vcxproj|D:\\TH-DSA\\Week01\\do_while-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D40124E0-4BE6-4BF1-A63B-C1D2951F88A5}|do_while-loop\\do_while-loop.vcxproj|solutionrelative:do_while-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{449F4BD8-39FF-4FC7-9AD8-E1E0511DACA1}|While-loop\\While-loop.vcxproj|D:\\TH-DSA\\Week01\\While-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{449F4BD8-39FF-4FC7-9AD8-E1E0511DACA1}|While-loop\\While-loop.vcxproj|solutionrelative:While-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB1BD9AF-ACA8-4A4E-98BB-56445B7DE7FD}|switch-case\\switch-case.vcxproj|D:\\TH-DSA\\Week01\\switch-case\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB1BD9AF-ACA8-4A4E-98BB-56445B7DE7FD}|switch-case\\switch-case.vcxproj|solutionrelative:switch-case\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F888041-6B9F-4D9A-A0D1-822EBBFFEFA3}|if-else\\if-else.vcxproj|D:\\TH-DSA\\Week01\\if-else\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7F888041-6B9F-4D9A-A0D1-822EBBFFEFA3}|if-else\\if-else.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\if-else\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7F888041-6B9F-4D9A-A0D1-822EBBFFEFA3}|if-else\\if-else.vcxproj|solutionrelative:if-else\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D8059B-10C0-43F8-AC39-78587E3A4710}|P01\\P01.vcxproj|D:\\TH-DSA\\Week01\\P01\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E2D8059B-10C0-43F8-AC39-78587E3A4710}|P01\\P01.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P01\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E2D8059B-10C0-43F8-AC39-78587E3A4710}|P01\\P01.vcxproj|solutionrelative:P01\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8C265E-42D3-4C88-B434-E4F6700792F1}|P06\\P06.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P06\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA8C265E-42D3-4C88-B434-E4F6700792F1}|P06\\P06.vcxproj|solutionrelative:P06\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A423AC76-E269-4D92-ACCF-B7689056FE89}|pointer\\pointer.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\pointer\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A423AC76-E269-4D92-ACCF-B7689056FE89}|pointer\\pointer.vcxproj|solutionrelative:pointer\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D738895-C569-4D9A-8523-68EB5069085A}|string\\string.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\string\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D738895-C569-4D9A-8523-68EB5069085A}|string\\string.vcxproj|solutionrelative:string\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3097BBB-8A44-4B74-9976-659A04B2C123}|array\\array.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\array\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3097BBB-8A44-4B74-9976-659A04B2C123}|array\\array.vcxproj|solutionrelative:array\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40124E0-4BE6-4BF1-A63B-C1D2951F88A5}|do_while-loop\\do_while-loop.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\do_while-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D40124E0-4BE6-4BF1-A63B-C1D2951F88A5}|do_while-loop\\do_while-loop.vcxproj|solutionrelative:do_while-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{449F4BD8-39FF-4FC7-9AD8-E1E0511DACA1}|While-loop\\While-loop.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\While-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{449F4BD8-39FF-4FC7-9AD8-E1E0511DACA1}|While-loop\\While-loop.vcxproj|solutionrelative:While-loop\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1BD9AF-ACA8-4A4E-98BB-56445B7DE7FD}|switch-case\\switch-case.vcxproj|C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\switch-case\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB1BD9AF-ACA8-4A4E-98BB-56445B7DE7FD}|switch-case\\switch-case.vcxproj|solutionrelative:switch-case\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,65 +62,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\P06\\Source.cpp",
-              "RelativeDocumentMoniker": "P06\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\P06\\Source.cpp",
-              "RelativeToolTip": "P06\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-23T14:03:58.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\P05\\Source.cpp",
-              "RelativeDocumentMoniker": "P05\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\P05\\Source.cpp",
-              "RelativeToolTip": "P05\\Source.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-23T03:52:23.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\pointer\\Source.cpp",
-              "RelativeDocumentMoniker": "pointer\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\pointer\\Source.cpp",
-              "RelativeToolTip": "pointer\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T12:58:20.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\string\\Source.cpp",
-              "RelativeDocumentMoniker": "string\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\string\\Source.cpp",
-              "RelativeToolTip": "string\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T12:57:08.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\array\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\array\\Source.cpp",
               "RelativeDocumentMoniker": "array\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\array\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\array\\Source.cpp",
               "RelativeToolTip": "array\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -128,11 +78,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\do_while-loop\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\do_while-loop\\Source.cpp",
               "RelativeDocumentMoniker": "do_while-loop\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\do_while-loop\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\do_while-loop\\Source.cpp",
               "RelativeToolTip": "do_while-loop\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -140,11 +90,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\While-loop\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\While-loop\\Source.cpp",
               "RelativeDocumentMoniker": "While-loop\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\While-loop\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\While-loop\\Source.cpp",
               "RelativeToolTip": "While-loop\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -152,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\switch-case\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\switch-case\\Source.cpp",
               "RelativeDocumentMoniker": "switch-case\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\switch-case\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\switch-case\\Source.cpp",
               "RelativeToolTip": "switch-case\\Source.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -164,23 +114,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\if-else\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\if-else\\Source.cpp",
               "RelativeDocumentMoniker": "if-else\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\if-else\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\if-else\\Source.cpp",
               "RelativeToolTip": "if-else\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T12:50:09.501Z"
+              "WhenOpened": "2025-03-22T12:50:09.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\P02\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P02\\Source.cpp",
               "RelativeDocumentMoniker": "P02\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\P02\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P02\\Source.cpp",
               "RelativeToolTip": "P02\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -191,38 +142,89 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\P04\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P03\\Source.cpp",
+              "RelativeDocumentMoniker": "P03\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P03\\Source.cpp",
+              "RelativeToolTip": "P03\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T13:00:31.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P01\\Source.cpp",
+              "RelativeDocumentMoniker": "P01\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P01\\Source.cpp",
+              "RelativeToolTip": "P01\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T12:41:28.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P04\\Source.cpp",
               "RelativeDocumentMoniker": "P04\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\P04\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P04\\Source.cpp",
               "RelativeToolTip": "P04\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-23T03:37:31.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\P03\\Source.cpp",
-              "RelativeDocumentMoniker": "P03\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\P03\\Source.cpp",
-              "RelativeToolTip": "P03\\Source.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P05\\Source.cpp",
+              "RelativeDocumentMoniker": "P05\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P05\\Source.cpp",
+              "RelativeToolTip": "P05\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T13:00:31.739Z"
+              "WhenOpened": "2025-03-23T03:52:23.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\TH-DSA\\Week01\\P01\\Source.cpp",
-              "RelativeDocumentMoniker": "P01\\Source.cpp",
-              "ToolTip": "D:\\TH-DSA\\Week01\\P01\\Source.cpp",
-              "RelativeToolTip": "P01\\Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\string\\Source.cpp",
+              "RelativeDocumentMoniker": "string\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\string\\Source.cpp",
+              "RelativeToolTip": "string\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T12:41:28.291Z"
+              "WhenOpened": "2025-03-22T12:57:08.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\pointer\\Source.cpp",
+              "RelativeDocumentMoniker": "pointer\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\pointer\\Source.cpp",
+              "RelativeToolTip": "pointer\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T12:58:20.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P06\\Source.cpp",
+              "RelativeDocumentMoniker": "P06\\Source.cpp",
+              "ToolTip": "C:\\git_clone\\DSA_S2_24CTT3A_HCMUS\\Week01\\P06\\Source.cpp",
+              "RelativeToolTip": "P06\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-23T14:03:58.83Z"
             }
           ]
         }
