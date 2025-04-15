@@ -1,0 +1,8 @@
+﻿  Main.cpp
+  SortingAlgorithm.cpp
+D:\TH-DSA\24120253_24120106\24120253_24120106\Week03\SortingAlgorithm\SortingAlgorithm.cpp(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\TH-DSA\24120253_24120106\24120253_24120106\Week03\SortingAlgorithm\SortingAlgorithm.cpp(7,6): warning C4101: 'temp': unreferenced local variable
+  SubFunction.cpp
+D:\TH-DSA\24120253_24120106\24120253_24120106\Week03\SortingAlgorithm\SubFunction.cpp(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  SortingAlgorithm.vcxproj -> D:\TH-DSA\24120253_24120106\24120253_24120106\Week03\Debug\SortingAlgorithm.exe
