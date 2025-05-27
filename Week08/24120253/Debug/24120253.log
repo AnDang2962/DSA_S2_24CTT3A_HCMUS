@@ -1,0 +1,32 @@
+﻿  main.cpp
+D:\TH-DSA\Week08\24120253\main.cpp(71,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(84,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(85,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(101,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(102,22): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(110,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(111,22): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(125,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(128,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(138,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(150,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(151,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(167,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(176,23): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(201,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(210,23): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(228,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(251,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(252,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(257,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(258,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(273,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(274,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(279,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(280,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(315,22): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(346,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(377,21): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(398,20): warning C4018: '<': signed/unsigned mismatch
+D:\TH-DSA\Week08\24120253\main.cpp(399,21): warning C4018: '<': signed/unsigned mismatch
+  24120253.vcxproj -> D:\TH-DSA\Week08\Debug\24120253.exe
