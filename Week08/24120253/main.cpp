@@ -294,8 +294,59 @@ vector<vector<int>> getComplementGraph(const vector<vector<int>>& adjMatrix) {
 	return res;
 }
 
-//6. 
+//6. using Hierholzer’s Algorithm để tìm chu trình Euler 
+vector<int> findEulerCycle(const vector<vector<int>>& adjMatrix) {
+	vector<int> res;
+	int start = -1; 
+	stack<int> s; 
 
+	vector<vector<int>> graph = adjMatrix;        // ma trận phụ để thay đổi 
+
+	// tìm đỉnh bắt đầu chu trình 
+	for (int i = 0; i < graph.size(); i++) {
+		if (start == -1) { // nếu chưa tìm được 
+			for (int j = 0; j < graph.size(); j++) {
+				if (graph[i][j] != 0) {
+					start = i;
+					break; // tìm được thì break 
+				}
+			}
+		}
+		else {
+			break; 
+		}
+	}
+
+	if (start == -1) { // nếu không tìm thấy đỉnh bắt đầu thì đồ thị rỗng 
+		return {};
+	}
+
+	s.push(start);
+
+	while (!s.empty()) {
+		int top = s.top();
+		
+		bool found = false;  // bién cờ xem có cạnh từ top tới đỉnh khác hay là ngõ cụt, false là chưa có cạnh nào 
+
+		//Xét từ top đến các đỉnh kề nó 
+		for (int j = 0; j < graph.size(); j++) {
+			if (graph[top][j] == 1) { // có cạnh từ top đến j chưa duyệt 
+				found = true; // đánh dấu đã duyệt 
+				graph[top][j] = 0; 
+				graph[j][top] = 0; // vì chỉ đi qua 1 lần nên bỏ luon các cạnh đã qua 
+				s.push(j);
+				break; // tìm được đỉnh mới rồi thì không xét ở đỉnh hiện tại nữa 
+			}
+		}
+		if (found == false) { // không tìm thấy đỉnh để nó đi đến 
+			res.push_back(top);
+			s.pop();
+		}
+
+	}
+	reverse(res.begin(), res.end()); // đảo ngược đẻe có kết quả đúng 
+	return res;
+}
 
 //7. spaning tree với bfs: 
 vector<vector<int>> bfsSpanningTree(const vector<vector<int>>& adjMatrix, int start) {
@@ -317,7 +368,7 @@ vector<vector<int>> bfsSpanningTree(const vector<vector<int>>& adjMatrix, int st
 					if (visit[i] == -1) { // chưa được duyệt 
 						visit[i] = 0; // đánh đấu duyệt 
 						q.push(i);
-
+						
 						res[i][temp] = 1; // cập nhật cạnh spanning tree 
 						res[temp][i] = 1;
 					}
@@ -359,7 +410,7 @@ vector<vector<int>> dfsSpanningTree(const vector<vector<int>>& adjMatrix, int st
 
 
 //8. Nhận diện giữa 2 đỉnh có cạnh hay không (trực tiếp và gián tiếp )
-bool isConnected(int u, int v, const vector<vector<int>>& adjMatrix) {
+bool Connected(int u, int v, const vector<vector<int>>& adjMatrix) {
 
 	//nối trực tiếp 
 	if (adjMatrix[u][v] == 1 || adjMatrix[v][u] == 1) return true;
@@ -386,29 +437,103 @@ bool isConnected(int u, int v, const vector<vector<int>>& adjMatrix) {
 
 	return false; 
 }
-
-
-
-// Hàm test: 
-int main() {
-	string inputfile = "input.txt";
-	vector<vector<int>> aMatrix= convertListToMatrix(inputfile);
-
-	
-	for (int i = 0; i < aMatrix.size(); i++) {
-		for (int j = 0; j < aMatrix[i].size(); j++) {
-			cout << aMatrix[i][j] << " ";
-		}
-		cout << endl;
-	}
-	cout << "------------------------------------------------" << endl;
-	if (isConnected(5, 0, aMatrix)) {
-		cout << "Yes" << endl;
-	}
-	else {
-		cout << "No " << endl;
-	}
-
-	
-	return 0;
+bool isConnected(int u, int v, const vector<vector<int>>& adjMatrix) {
+	if (Connected(u, v, adjMatrix) == 1 && Connected(v, u, adjMatrix) == 1) return true;
+	return false;
 }
+
+//9. Find the shortest path between two vertices of a given graph using (*Weighted Graph):
+
+// dijkstra's algorithm 
+vector<int> dijkstra(int start, int end, const vector<vector<int>>& adjMatrix) {
+	int n = adjMatrix.size();
+	vector<int> dist(n, INT_MAX);   // dist[i]: khoảng cách ngắn nhất từ start đến i, ban đầu gán khoảng cách từ 
+									// từ đỉnh đầu cho đến các đỉnh là vô cùng 
+	vector<int> parent(n, -1);      // cho biết đỉnh trước của đỉnh đang xét, u->v : parent[v]=u
+	vector<bool> visited(n, false); // đánh dấu đỉnh đã xử lý
+
+	dist[start] = 0;
+
+	// Hàng đợi ưu tiên chứa (khoảng cách, đỉnh), tự động sắp xếp tăng dần theo khoảng cách
+	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
+	pq.push({ 0, start });
+
+	while (!pq.empty()) {
+		int u = pq.top().second;
+		pq.pop();
+
+		if (visited[u]) continue; // duyệt rồi bỏ qua 
+		visited[u] = true;
+
+		for (int v = 0; v < n; ++v) {
+			int weight = adjMatrix[u][v]; // trọng số từ u đến v 
+			if (weight > 0 && !visited[v]) { // có cạnh và đỉnh v vẫn chưa được duyệt 
+				if (dist[u] + weight < dist[v]) { // xét đường đi mới có ngắn hơn đường đi cũ 
+					dist[v] = dist[u] + weight; // cập nhật đường đi mới 
+					parent[v] = u;   
+					pq.push({ dist[v], v });
+				}
+			}
+		}
+	}
+
+	if (dist[end] == INT_MAX) return {}; // Cuối cùng nếu end vẫn bằng vô cùng thì không có đường đi
+
+	// Truy vết đường đi từ end về start
+	vector<int> path;
+	for (int v = end; v != -1; v = parent[v])
+		path.push_back(v);
+	reverse(path.begin(), path.end());
+
+	
+	return path;
+}
+
+// BellmanFord's algorithm 
+vector<int> bellmanFord(int start, int end, const vector<vector<int>>& adjMatrix) {
+	int n = adjMatrix.size();
+	vector<vector<int>> edges; // Mỗi phần tử: {u, v, weight}
+
+	// Tạo danh sách cạnh từ ma trận kề có trọng số
+	for (int u = 0; u < n; ++u) {
+		for (int v = 0; v < n; ++v) {
+			if (adjMatrix[u][v] != 0) {
+				edges.push_back({ u, v, adjMatrix[u][v] });
+			}
+		}
+	}
+
+	vector<int> dist(n, INT_MAX); // khởi tạo khoảng cách từ đỉnh start đén các đỉnh khác là vô cùng 
+	vector<int> parent(n, -1); // cho biết đỉnh trước nối với đỉnh hiện tại 
+	dist[start] = 0;
+
+	// Lặp n-1 lần
+	for (int i = 0; i < n - 1; ++i) {
+		for (const auto& edge : edges) {
+			int u = edge[0], v = edge[1], w = edge[2];
+			if (dist[u] != INT_MAX && dist[u] + w < dist[v]) {
+				dist[v] = dist[u] + w;
+				parent[v] = u;
+			}
+		}
+	}
+
+	// Kiểm tra chu trình âm
+	for (const auto& edge : edges) {
+		int u = edge[0], v = edge[1], w = edge[2];
+		if (dist[u] != INT_MAX && dist[u] + w < dist[v]) {
+			cout << "Do thi co chu trinh am !!!" << endl;
+			return {};
+		}
+	}
+
+	// Truy vết đường đi từ end về start
+	if (dist[end] == INT_MAX) return {}; // Không có đường đi
+
+	vector<int> path;
+	for (int v = end; v != -1; v = parent[v])
+		path.push_back(v);
+	reverse(path.begin(), path.end());
+	return path;
+}
+
